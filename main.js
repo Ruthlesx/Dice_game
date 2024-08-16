@@ -1,3 +1,5 @@
+// *!Note: Most comments in-code are mistakes for making wiser decisions
+
 const listOfAllDice = document.querySelectorAll(".die")
 const scoreInputs = document.querySelectorAll("input")
 const scoreSpans = document.querySelectorAll("#score-options span")
@@ -19,6 +21,8 @@ let rolls = 0
 let score = 0
 let round =  1
 
+/**  Mistakes for making wiser decision
+**Note Javascrip do not have a toggle event
 
 /*rulesBtn.addEventListener('toggle', function check(isModalShowing) { if (isModalShowing = false) {
   return rulesContainer
